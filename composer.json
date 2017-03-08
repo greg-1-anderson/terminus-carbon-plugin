@@ -1,0 +1,17 @@
+{
+    "name": "pantheon-systems/terminus-carbon-plugin",
+    "description": "An example Terminus command",
+    "type": "terminus-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Pantheon\\TerminusCarbon\\": "src" }
+    },
+    "require": {
+        "nesbot/carbon": "^1.21"
+    },
+    "extra": {
+        "terminus": {
+            "compatible-version": "1.*"
+        }
+    }
+}
